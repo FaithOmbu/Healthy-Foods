@@ -1,32 +1,39 @@
-Clean up our basic projects.
-Installing necessary packages.
-  1. react-bootstrap
-  2. react-router-dom
-  3. react-loader-spinner
-  4. axios
+clean up our basic projects
+installing necessary pkgs
+    1. bootstrap
+    2. react-router-dom
+    3. react-loader-spinner
+    4. axios
 
 
-  Set up pages(.jsx)
-  1. Home page
-  2. About page
-  3. SingleMealPage
-  4. Error page
+set up pages
+    1. Home pages
+    2. About pages
+    3. single meal pages
+    4. Error page
 
-Set up react router dom
+set Up react router dom
 
 create some components
-1. Navbar
-2. Footer
-...if you have consistent pages put it above the routes
+     1. Navbar
+     2. Footer
 
-to create Home 
- 1. Hero.jsx
- 2. Meal List.jsx
- 3.Search Form.jsx
+to create Home
+ 1. Hero
+ 2. SearchForm
+ 3. MealList
 
- Work on context api
+Work on context api
 
- axios to make fetch req to the final url
+axios to make fetch req to the finalUrl
 
- use foods gotten from api
- create a loading component
+use foods gotten from the api
+loading component
+
+/meal/${idMeal}
+
+search
+use useRef and it has {current: value} for input
+
+set up singlePage 
+useParams
